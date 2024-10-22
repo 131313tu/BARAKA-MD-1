@@ -34,8 +34,8 @@ global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]
 //========================= [ BOT SETTINGS ] =========================\\
 global.style = process.env.STYLE   || '1'  // put '1' to "5" here to check bot styles
 global.flush = process.env.FLUSH   || "false"; // Make it "true" if bot not responed
-global.gdbye = process.env.GOODBYE || "false"; 
-global.wlcm  = process.env.WELCOME || "false";  // Make it "false" for disable WELCOME 
+global.gdbye = process.env.GOODBYE || "true"; 
+global.wlcm  = process.env.WELCOME || "true";  // Make it "false" for disable WELCOME 
 
 global.warncount = process.env.WARN_COUNT || 3
 global.disablepm = process.env.DISABLE_PM || "false"
@@ -62,7 +62,7 @@ global.api_smd = "https://api-smd-1.vercel.app"
 global.scan = "https://baraka-md-af3e38f6851a.herokuapp.com/";
 
 
-global.SESSION_ID = process.env.SESSION_ID ||  "" ;
+global.SESSION_ID = process.env.SESSION_ID ||  "Bmwmd$rAjfd0ra" ;
 
 
 module.exports = {
@@ -72,12 +72,12 @@ module.exports = {
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "1.3.1",
-  caption : process.env.CAPTION || "BARAKA-XMD✅" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
+  caption : process.env.CAPTION || "453MD✅" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
-  author : process.env.PACK_AUTHER|| "Mr baraka",
+  author : process.env.PACK_AUTHER|| "XD",
   packname: process.env.PACK_NAME || "🐯",
-  botname : process.env.BOT_NAME  || "BARAKA MD",
-  ownername:process.env.OWNER_NAME|| "Mr baraka",
+  botname : process.env.BOT_NAME  || "XD",
+  ownername:process.env.OWNER_NAME|| "XD",
 
 
   errorChat : process.env.ERROR_CHAT || "",
